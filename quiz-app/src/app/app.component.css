@@ -15,8 +15,15 @@
     text-align: center;
     margin: 20px;
     display: inline-block;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform-origin: top left;
 }
 
 .tarjeta button{
     margin-bottom: 40px;
+}
+
+.tarjeta:hover {
+    -webkit-transform: scale3d(1.2, 1.2, 1.2);
+    transform: scale3d(1.2);
 }
