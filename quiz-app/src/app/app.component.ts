@@ -26,7 +26,7 @@ export class AppComponent {
 
     icono5 = new icono("Google",
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id suscipit ea ipsa molestias.",
-    "googleplus");
+    "google-plus");
 
     icono6 = new icono("Github",
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id suscipit ea ipsa molestias.",
